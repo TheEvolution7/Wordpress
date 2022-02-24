@@ -1,0 +1,8 @@
+.top_panel .left .menu ul li.active a::after,
+.top_panel .left .menu ul li.active a::before {
+  width: 50%;
+}
+
+.aw-slide .item {
+	padding-bottom: 15%
+}

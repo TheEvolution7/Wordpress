@@ -1,0 +1,13 @@
+[06-Nov-2021 13:40:33 UTC] WordPress database error Specified key was too long; max key length is 767 bytes for query CREATE TABLE tMY_ce4wp_contacts (
+			contact_id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+			email varchar(200) NOT NULL DEFAULT '',
+			first_name varchar(200) DEFAULT '',
+			last_name varchar(200) DEFAULT '',
+			telephone varchar(200) DEFAULT '',
+            consent varchar(200) DEFAULT '',
+			PRIMARY KEY  (contact_id),
+			UNIQUE KEY email (email)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CreativeMail\Managers\DatabaseManager->update_database_check, CreativeMail\Managers\DatabaseManager->create_contacts_table, dbDelta
+[06-Nov-2021 16:43:48 UTC] PHP Fatal error:  Cannot redeclare social_options() (previously declared in /home3/oiywldmy/public_html/diversitylegal/wp-content/themes/diversitylegalsolutions/functions.php:240) in /home3/oiywldmy/public_html/diversitylegal/wp-content/themes/diversitylegalsolutions/functions.php on line 333
+[06-Nov-2021 16:45:52 UTC] PHP Fatal error:  Cannot redeclare loading_options() (previously declared in /home3/oiywldmy/public_html/diversitylegal/wp-content/themes/diversitylegalsolutions/functions.php:216) in /home3/oiywldmy/public_html/diversitylegal/wp-content/themes/diversitylegalsolutions/functions.php on line 333
+[06-Nov-2021 16:46:07 UTC] PHP Fatal error:  Cannot redeclare loading_options() (previously declared in /home3/oiywldmy/public_html/diversitylegal/wp-content/themes/diversitylegalsolutions/functions.php:216) in /home3/oiywldmy/public_html/diversitylegal/wp-content/themes/diversitylegalsolutions/functions.php on line 333

@@ -1,0 +1,223 @@
+[22-Mar-2021 10:18:33 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[22-Mar-2021 10:18:33 UTC] WordPress database error Incorrect table name '' for query INSERT INTO `` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', 'iJG^90`=b[jBS<Hsz@Nl*ono)Kg0@,*d9T1T(FM?vCJ GKI|^6^0CHz*71QQ$Ev}', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by wp_print_scripts, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[22-Mar-2021 10:18:33 UTC] WordPress database error Incorrect table name '' for query INSERT INTO `` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_salt', 'a12PHdK=(|FWx<{;DkDL^Nw)=d[yV},;]z{:*.9X){}( .5kQ!DWDBP]Wbk-l#q|', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by wp_print_scripts, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[25-Mar-2021 10:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_side() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home3/oi in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[25-Mar-2021 10:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_side() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home3/oi in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[25-Mar-2021 10:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_side() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home3/oi in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[25-Mar-2021 10:18:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_side() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home3/oi in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[25-Mar-2021 10:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_side() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home3/oi in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[25-Mar-2021 10:18:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_side() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home3/oi in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[25-Mar-2021 10:19:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Foo_Widget' not found in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php(142): register_widget('Foo_Widget')
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): register_foo('')
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_ in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php on line 61
+[25-Mar-2021 10:19:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Foo_Widget' not found in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php(142): register_widget('Foo_Widget')
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): register_foo('')
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_ in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php on line 61
+[25-Mar-2021 10:19:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Foo_Widget' not found in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php(142): register_widget('Foo_Widget')
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): register_foo('')
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_ in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php on line 61
+[25-Mar-2021 10:40:29 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php on line 600
+[25-Mar-2021 10:40:33 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php on line 600
+[25-Mar-2021 10:41:32 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php on line 600
+[25-Mar-2021 10:41:35 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php on line 600
+[25-Mar-2021 10:53:23 UTC] PHP Warning:  Declaration of MY_Widget::widget() should be compatible with WP_Widget::widget($args, $instance) in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 169
+[25-Mar-2021 10:53:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function MY_Widget::my_widget(), 0 passed in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php on line 61 and exactly 2 expected in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:155
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php(61): MY_Widget->my_widget()
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('my_widget')
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php(172): register_widget('my_widget')
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): prefix_register_widgets('')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /home3/oiyw in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 155
+[25-Mar-2021 10:53:45 UTC] PHP Fatal error:  Uncaught Error: Class 'my_widget' not found in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('my_widget')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php(156): register_widget('my_widget')
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): prefix_register_widgets('')
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php on line 61
+[25-Mar-2021 10:54:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Twenty_Eleven_Ephemera_Widget' not found in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('Twenty_Eleven_E...')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php(153): register_widget('Twenty_Eleven_E...')
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(528): include('/home3/oiywldmy...')
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-config.php(90): require_once('/home3/oiywldmy...')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-load.php(37): require_once('/home3/oiywldmy...')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin.php(34): require_once('/home3/oiywldmy...')
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/widgets.php(10): require_once('/home3/oiywldmy...')
+#7 {main}
+  thrown in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php on line 61
+[25-Mar-2021 10:54:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Twenty_Eleven_Ephemera_Widget' not found in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(115): WP_Widget_Factory->register('Twenty_Eleven_E...')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php(153): register_widget('Twenty_Eleven_E...')
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(528): include('/home3/oiywldmy...')
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-config.php(90): require_once('/home3/oiywldmy...')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-load.php(37): require_once('/home3/oiywldmy...')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin.php(34): require_once('/home3/oiywldmy...')
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/widgets.php(10): require_once('/home3/oiywldmy...')
+#7 {main}
+  thrown in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-widget-factory.php on line 61
+[26-Mar-2021 01:06:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_sidebar1() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[26-Mar-2021 01:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_sidebar1() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[26-Mar-2021 01:06:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_sidebar1() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:137
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): feedni_widgets_init('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/widgets.php(1799): do_action('widgets_init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): wp_widgets_init('')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#8 /home in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 137
+[26-Mar-2021 01:09:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'codetot_widget_init' not found or invalid function name in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php on line 292
+[26-Mar-2021 01:09:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'codetot_widget_init' not found or invalid function name in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php on line 292
+[26-Mar-2021 04:24:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function current_page_url() in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:221
+Stack trace:
+#0 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(292): functionToSetcookie('')
+#1 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home3/oiywldmy/public_html/feedni/wordpress/wp-settings.php(560): do_action('init')
+#4 /home3/oiywldmy/public_html/feedni/wordpress/wp-config.php(90): require_once('/home3/oiywldmy...')
+#5 /home3/oiywldmy/public_html/feedni/wordpress/wp-load.php(37): require_once('/home3/oiywldmy...')
+#6 /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php(22): require_once('/home3/oiywldmy...')
+#7 {main}
+  thrown in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 221
+[26-Mar-2021 04:26:07 UTC] PHP Warning:  Use of undefined constant DAYS_IN_SECONDS - assumed 'DAYS_IN_SECONDS' (this will throw an Error in a future version of PHP) in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 215
+[26-Mar-2021 04:26:07 UTC] PHP Warning:  A non-numeric value encountered in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 215
+[26-Mar-2021 04:26:07 UTC] PHP Warning:  Cookie names must not be empty in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 215
+[26-Mar-2021 04:28:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:221) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/http.php on line 492
+[26-Mar-2021 04:28:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:221) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/http.php on line 493
+[26-Mar-2021 04:28:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:221) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php on line 27
+[26-Mar-2021 04:28:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:221) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php on line 28
+[26-Mar-2021 04:28:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:221) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/functions.php on line 6248
+[26-Mar-2021 04:28:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:221) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/functions.php on line 6362
+[26-Mar-2021 04:28:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:221) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/includes/misc.php on line 1310
+[26-Mar-2021 04:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:218) in /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php on line 219
+[26-Mar-2021 04:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:218) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/http.php on line 492
+[26-Mar-2021 04:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:218) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/http.php on line 493
+[26-Mar-2021 04:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:218) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php on line 27
+[26-Mar-2021 04:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:218) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php on line 28
+[26-Mar-2021 04:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:218) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/functions.php on line 6248
+[26-Mar-2021 04:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:218) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/functions.php on line 6362
+[26-Mar-2021 04:29:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:218) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/includes/misc.php on line 1310
+[26-Mar-2021 04:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:225) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/http.php on line 492
+[26-Mar-2021 04:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:225) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/http.php on line 493
+[26-Mar-2021 04:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:225) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php on line 27
+[26-Mar-2021 04:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:225) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php on line 28
+[26-Mar-2021 04:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:225) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/functions.php on line 6248
+[26-Mar-2021 04:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:225) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/functions.php on line 6362
+[26-Mar-2021 04:31:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:225) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/includes/misc.php on line 1310
+[26-Mar-2021 04:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:222) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/http.php on line 492
+[26-Mar-2021 04:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:222) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/http.php on line 493
+[26-Mar-2021 04:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:222) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php on line 27
+[26-Mar-2021 04:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:222) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/admin-ajax.php on line 28
+[26-Mar-2021 04:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:222) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/functions.php on line 6248
+[26-Mar-2021 04:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:222) in /home3/oiywldmy/public_html/feedni/wordpress/wp-includes/functions.php on line 6362
+[26-Mar-2021 04:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/oiywldmy/public_html/feedni/wordpress/wp-content/themes/feedni/functions.php:222) in /home3/oiywldmy/public_html/feedni/wordpress/wp-admin/includes/misc.php on line 1310

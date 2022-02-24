@@ -1,0 +1,264 @@
+<?php
+/**
+ * Feedni functions and definitions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package Feedni
+ */
+
+if ( ! defined( '_S_VERSION' ) ) {
+	// Replace the version number of the theme on each release.
+	define( '_S_VERSION', '1.0.0' );
+}
+
+if ( ! function_exists( 'feedni_setup' ) ) :
+	/**
+	 * Sets up theme defaults and registers support for various WordPress features.
+	 *
+	 * Note that this function is hooked into the after_setup_theme hook, which
+	 * runs before the init hook. The init hook is too late for some features, such
+	 * as indicating support for post thumbnails.
+	 */
+	function feedni_setup() {
+		/*
+		 * Make theme available for translation.
+		 * Translations can be filed in the /languages/ directory.
+		 * If you're building a theme based on Feedni, use a find and replace
+		 * to change 'feedni' to the name of your theme in all the template files.
+		 */
+		load_theme_textdomain( 'feedni', get_template_directory() . '/languages' );
+
+		// Add default posts and comments RSS feed links to head.
+		add_theme_support( 'automatic-feed-links' );
+
+		/*
+		 * Let WordPress manage the document title.
+		 * By adding theme support, we declare that this theme does not use a
+		 * hard-coded <title> tag in the document head, and expect WordPress to
+		 * provide it for us.
+		 */
+		add_theme_support( 'title-tag' );
+
+		/*
+		 * Enable support for Post Thumbnails on posts and pages.
+		 *
+		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
+		 */
+		add_theme_support( 'post-thumbnails' );
+
+		// This theme uses wp_nav_menu() in one location.
+		register_nav_menus(
+			array(
+				'menu-1' => esc_html__( 'Primary', 'feedni' ),
+			)
+		);
+
+		/*
+		 * Switch default core markup for search form, comment form, and comments
+		 * to output valid HTML5.
+		 */
+		add_theme_support(
+			'html5',
+			array(
+				'search-form',
+				'comment-form',
+				'comment-list',
+				'gallery',
+				'caption',
+				'style',
+				'script',
+			)
+		);
+
+		// Set up the WordPress core custom background feature.
+		add_theme_support(
+			'custom-background',
+			apply_filters(
+				'feedni_custom_background_args',
+				array(
+					'default-color' => 'ffffff',
+					'default-image' => '',
+				)
+			)
+		);
+
+		// Add theme support for selective refresh for widgets.
+		add_theme_support( 'customize-selective-refresh-widgets' );
+
+		/**
+		 * Add support for core custom logo.
+		 *
+		 * @link https://codex.wordpress.org/Theme_Logo
+		 */
+		add_theme_support(
+			'custom-logo',
+			array(
+				'height'      => 250,
+				'width'       => 250,
+				'flex-width'  => true,
+				'flex-height' => true,
+			)
+		);
+	}
+endif;
+add_action( 'after_setup_theme', 'feedni_setup' );
+
+/**
+ * Set the content width in pixels, based on the theme's design and stylesheet.
+ *
+ * Priority 0 to make it available to lower priority callbacks.
+ *
+ * @global int $content_width
+ */
+function feedni_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'feedni_content_width', 640 );
+}
+add_action( 'after_setup_theme', 'feedni_content_width', 0 );
+
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ */
+function feedni_widgets_init() {
+	// register_sidebar(
+	// 	array(
+	// 		'name'          => esc_html__( 'Sidebar', 'feedni' ),
+	// 		'id'            => 'sidebar-1',
+	// 		'description'   => esc_html__( 'Add widgets here.', 'feedni' ),
+	// 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+	// 		'after_widget'  => '</section>',
+	// 		'before_title'  => '<h2 class="widget-title">',
+	// 		'after_title'   => '</h2>',
+	// 	)
+	// );
+
+	register_sidebar( 
+		array(
+		    'name'          => 'Footer Logo',
+		    'id'            => 'footer-logo',
+		    'before_widget' => '',
+			'after_widget'  => ''
+	 ) 
+	);
+
+	register_sidebar( 
+		array(
+		    'name'          => 'Footer Social',
+		    'id'            => 'footer-social',
+		    'before_widget' => '',
+			'after_widget'  => ''
+	 ) 
+	);
+
+	register_sidebar( 
+		array(
+		    'name'          => 'Core Link',
+		    'id'            => 'core-link',
+		    'before_widget' => '<h4>',
+			'after_widget'  => '</h4>'
+	 ) 
+	);
+
+	register_sidebar( 
+		array(
+		    'name'          => 'Information',
+		    'id'            => 'information',
+		    'before_widget' => '<h4>',
+			'after_widget'  => '</h4>'
+	 ) 
+	);
+
+	register_sidebar( 
+		array(
+		    'name'          => 'Stay In  Loop',
+		    'id'            => 'stay',
+		    'before_widget' => '<h4>',
+			'after_widget'  => '</h4>'
+	 ) 
+	);
+
+	register_sidebar( 
+		array(
+		    'name'          => 'All rights',
+		    'id'            => 'all-rights',
+		    'before_widget' => '',
+			'after_widget'  => ''
+	 ) 
+	);
+
+	register_sidebar( 
+		array(
+		    'name'          => 'Apple Link',
+		    'id'            => 'apple',
+		    'before_widget' => '',
+			'after_widget'  => ''
+	 ) 
+	);
+
+	register_sidebar( 
+		array(
+		    'name'          => 'Android Link',
+		    'id'            => 'android',
+		    'before_widget' => '',
+			'after_widget'  => ''
+	 ) 
+	);
+}
+add_action( 'widgets_init', 'feedni_widgets_init' );
+
+
+
+// add_action( 'init', 'my_setcookie_example' );
+//     function my_setcookie_example() {
+//    		$cookie_name = "user";
+// 		$cookie_value = "John Doe";
+// 		$pageurl = get_option('siteurl').'/intro';
+// 		setcookie($cookie_name, $cookie_value, time() + (3600), "/");
+// 		if(!isset($_COOKIE[$cookie_name])) {
+// 		    header("Location: $pageurl");
+// 		}
+//     }
+/**
+ * Enqueue scripts and styles.
+ */
+function feedni_scripts() {
+	wp_enqueue_style( 'feedni-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_style_add_data( 'feedni-style', 'rtl', 'replace' );
+
+	wp_enqueue_script( 'feedni-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'feedni_scripts' );
+
+// /**
+//  * Implement the Custom Header feature.
+//  */
+// require get_template_directory() . '/inc/custom-header.php';
+
+// /**
+//  * Custom template tags for this theme.
+//  */
+// require get_template_directory() . '/inc/template-tags.php';
+
+// /**
+//  * Functions which enhance the theme by hooking into WordPress.
+//  */
+// require get_template_directory() . '/inc/template-functions.php';
+
+// /**
+//  * Customizer additions.
+//  */
+// require get_template_directory() . '/inc/customizer.php';
+
+// /**
+//  * Load Jetpack compatibility file.
+//  */
+// if ( defined( 'JETPACK__VERSION' ) ) {
+// 	require get_template_directory() . '/inc/jetpack.php';
+// }
+
